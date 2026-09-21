@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://d.uguu.se/DdnUxAYe.jpg" alt="WhatsApp Baileys K" width="100%" />
+<img src="https://files.catbox.moe/ibz8hp.jpg" alt="WhatsApp Baileys K" width="100%" />
 
 <br/>
 <br/>
