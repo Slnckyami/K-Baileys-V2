@@ -1,23 +1,23 @@
 {
-    "name": "@anjaiedgar/Lbail",
+    "name": "@KyamiSilence/Kbail",
     "version": "2.0.3",
-    "description": "WhatsApp API Modification By Edgar",
+    "description": "WhatsApp API Modification By Kyami",
     "keywords": [
         "whatsapp",
         "laurine-wabot",
-        "Lbail",
+        "Kbail",
         "whatsapp-web",
         "whatsapp-chat",
         "whatsapp-group",
         "botwa",
         "stvnnvs"
     ],
-    "homepage": "https://github.com/anjaiedgar/Lbail",
+    "homepage": "https://github.com/Slnckyami/K-Baileys-V2",
     "repository": {
-        "url": "https://github.com/anjaiedgar/Lbail"
+        "url": "https://github.com/Slnckyami/K-Baileys-V2"
     },
     "license": "MIT",
-    "author": "EdgarOffc",
+    "author": "SlncKyami",
     "main": "lib/index.js",
     "types": "lib/index.d.ts",
    "files": [
@@ -140,7 +140,7 @@
     "node": ">=20.0.0"
   },
   "bugs": {
-    "url": "https://github.com/anjaiedgar/Lbail/issues"
+    "url": "https://github.com/Slnckyami/K-Baileys-V2/issues"
   },
   "contributors": [
     "WhiskeySockets (original Baileys authors)"

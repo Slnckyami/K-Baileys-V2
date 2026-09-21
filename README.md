@@ -1,11 +1,11 @@
 <div align="center">
 
-<img src="https://u.pone.rs/zpxthwyv.jpeg" alt="WhatsApp Baileys Cpx" width="100%" />
+<img src="https://d.uguu.se/DdnUxAYe.jpg" alt="WhatsApp Baileys K" width="100%" />
 
 <br/>
 <br/>
 
-# WhatsApp Baileys Cpx
+# WhatsApp Baileys K
 
 <p>
   <img src="https://img.shields.io/badge/Node.js-%3E%3D20-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
@@ -20,15 +20,15 @@ Built on WebSocket for speed, stability, and full multi-device support.
 
 <br/>
 
-[Installation](#getting-started) • [Features](#main-features) • [Stability](#stability--disconnect-handling) • [Whatsapp Owner](https://wa.me/6287838882011) • [Channel Wa](https://whatsapp.com/channel/0029VbDZF1IJZg4ChM6tA805)
+[Installation](#getting-started) • [Features](#main-features) • [Stability](#stability--disconnect-handling) • [Whatsapp Owner](https://wa.me/6283894222416) • [Channel Wa](https://whatsapp.com/channel/0029VbDZF1IJZg4ChM6tA805)
 
 </div>
 
 ---
 
-## What is Baileys Cpx?
+## What is Baileys K?
 
-**WhatsApp Baileys Edgar** (`@cryskyyexp-ux/Cpxbail`) is a powerful, open-source WhatsApp Web library built on top of the Baileys protocol stack — extended with features not found in any other public fork. Connects directly to WhatsApp's multi-device WebSocket protocol. No Selenium, no Puppeteer, no browser overhead.
+**WhatsApp Baileys Kyami** (`@SlncKyami/K-Baileys`) is a powerful, open-source WhatsApp Web library built on top of the Baileys protocol stack — extended with features not found in any other public fork. Connects directly to WhatsApp's multi-device WebSocket protocol. No Selenium, no Puppeteer, no browser overhead.
 
 > **Node.js ≥ 20 required.**
 
@@ -37,11 +37,11 @@ Built on WebSocket for speed, stability, and full multi-device support.
 ## Getting Started
 
 ```bash
-npm install @cryskyyexp-ux/Cpxbail
+npm install @SlncKyami/K-Baileys
 ```
 
 ```javascript
-import { makeWASocket, useMultiFileAuthState } from '@cryskyyexp-ux/Cpxbail'
+import { makeWASocket, useMultiFileAuthState } from '@SlncKyami/K-Baileys'
 
 const { state, saveCreds } = await useMultiFileAuthState('auth_info')
 const sock = makeWASocket({
@@ -85,7 +85,7 @@ Send messages that render as Meta AI-style bubbles inside WhatsApp. Supports mul
 // Markdown text
 await sock.sendMessage(jid, {
     richResponse: {
-        text: '**Hello** from *CpxS*',
+        text: '**Hello** from *K*',
         responseId: 'optional-uuid'
     }
 })
@@ -290,10 +290,10 @@ await sock.sendCodeBlock(jid, code, quoted, { noSelfSync: true })
 
 ## Stability & Disconnect Handling
 
-Edgar ships `classifyDisconnect()` — maps every WA status code into an actionable result:
+Kyami ships `classifyDisconnect()` — maps every WA status code into an actionable result:
 
 ```javascript
-import { classifyDisconnect } from '@cryskyyexp-ux/Cpxbail'
+import { classifyDisconnect } from '@SlncKyami/K-Baileys'
 
 sock.ev.on('connection.update', ({ connection, lastDisconnect }) => {
     if (connection === 'close') {
@@ -331,7 +331,7 @@ sock.ev.on('connection.update', ({ connection, lastDisconnect }) => {
 | Graceful close | recoverable | ✅ | 2 s |
 | Unknown | unknown | ✅ | 15 s |
 
-> **Important:** Code 515 (`restartRequired`) is WhatsApp's normal post-pairing signal. Cpx correctly treats it as recoverable with 0 ms backoff — other forks incorrectly mark it as fatal, causing bots to stop after first pair.
+> **Important:** Code 515 (`restartRequired`) is WhatsApp's normal post-pairing signal. K correctly treats it as recoverable with 0 ms backoff — other forks incorrectly mark it as fatal, causing bots to stop after first pair.
 
 ---
 
@@ -340,7 +340,7 @@ sock.ev.on('connection.update', ({ connection, lastDisconnect }) => {
 Anti-ban pacing calculator — wire into your send path before each `sendMessage`:
 
 ```javascript
-import { RateLimiter } from '@cryskyyexp-ux/Cpxbail'
+import { RateLimiter } from '@SlncKyami/K-Baileys'
 
 const limiter = new RateLimiter({
     maxPerMinute: 8,
@@ -466,8 +466,8 @@ await sock.updateMediaMessage(message)
 
 <div align="center">
 
-**Whatsapp Owner:** [@Cryskyy](https://wa.me/6287838882011)  
-**Official Channel:** [@CpxCryskyy](https://whatsapp.com/channel/0029VbDZF1IJZg4ChM6tA805)
+**Whatsapp Owner:** [@SlncKyami](https://wa.me/6283894222416)  
+**Official Channel:** [@KyamiSilence](https://whatsapp.com/channel/0029VbDpTWzCXC3Oype3si31)
 
 </div>
 
